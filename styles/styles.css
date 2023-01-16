@@ -16,6 +16,11 @@
   font-size: 17px;
   color: #ffffff;
   border-radius: 20px;
+  transition: .2s ease-in-out;
+}
+.primary-btn:hover{
+  transform: scale(1.1);
+  box-shadow: 1px 1px 10px rgba(177, 30, 128, 0.356);
 }
 .primary-bton {
   background-color: #e02c6d;
@@ -26,6 +31,11 @@
   font-size: 17px;
   color: #ffffff;
   border-radius: 0px;
+  transition: transform .4s ;
+}
+.primary-bton:hover{
+  transform: scale(1.1);
+  box-shadow: 1px 1px 10px rgba(177, 30, 128, 0.356);
 }
 .header {
   width: 100%;
@@ -52,7 +62,7 @@
   gap: 10px;
   align-items: center;
   color: #3a3a3a;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 .finding ul {
   display: flex;
@@ -61,6 +71,14 @@
 }
 ul li {
   margin-right: 22px;
+  transition: .1s ease-in;
+}
+ul li:hover{
+  border-bottom: 1px solid #e02c6d;
+  transform: scale(1.1);
+  color: #df3899;
+  
+ 
 }
 
 /* banner-section--
@@ -110,6 +128,12 @@ i {
   box-shadow: 1px 20px 30px rgba(0, 0, 0, 0.055);
   padding: 10px;
   align-items: center;
+  transition: 1s ease-out;
+}
+
+.partnership-sector:hover{
+  background-color: #81cbce3a;
+  transform: scale(1.1);
 }
 /* our collection sector 
 ---------------------------*/
@@ -147,7 +171,13 @@ main {
   align-items: flex-start;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.11);
   border-radius: 10px;
+  transition: transform 0.3s ease-in;
 }
+.product:hover{
+  transform: scale(1.1);
+
+}
+
 .product img {
   width: 280px;
   height: 160px;
