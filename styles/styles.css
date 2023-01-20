@@ -51,6 +51,7 @@
   align-items: center;
   margin: 0 auto;
   padding-top: 50px;
+  scroll-behavior: auto;
 }
 .nav-title {
   font-weight: 700;
@@ -171,10 +172,13 @@ main {
   align-items: flex-start;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.11);
   border-radius: 10px;
+  text-transform: capitalize;
   transition: transform 0.3s ease-in;
 }
 .product:hover{
   transform: scale(1.1);
+  /* text-decoration: dotted; */
+
 
 }
 
@@ -194,7 +198,9 @@ main {
   font-size: 28px;
   color: #18191f;
   margin-bottom: 8px;
+  
 }
+
 .shifting {
   font-weight: 700;
   font-size: 14px;
@@ -281,6 +287,9 @@ footer{
 @media (max-width:992px) {
   .banner{
     flex-direction: column-reverse;
+  }
+  .collection{
+    grid-template-columns: repeat(1,1fr);
   }
 }
 
